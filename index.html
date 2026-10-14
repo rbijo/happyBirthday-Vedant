@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff2e8" />
+  <title>Happy Birthday, Vedant!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="confetti-layer" id="confetti" aria-hidden="true"></div>
+  <main class="page">
+    <header class="topline"><span class="sparkle">✦</span> A LITTLE CELEBRATION <span class="sparkle">✦</span></header>
+    <section class="hero">
+      <p class="eyebrow">IT'S YOUR DAY!</p>
+      <h1>Happy Birthday,<br><span>Vedant!</span></h1>
+      <p class="subtitle">Make a wish. Pop some balloons. Cut some cake. Make today unforgettable.</p>
+      <div class="scene" id="scene">
+        <button class="balloon balloon-one" data-balloon="1" aria-label="Pop pink balloon"><span></span></button>
+        <button class="balloon balloon-two" data-balloon="2" aria-label="Pop purple balloon"><span></span></button>
+        <button class="balloon balloon-three" data-balloon="3" aria-label="Pop orange balloon"><span></span></button>
+        <div class="cake-wrap">
+          <div class="candles" id="candles">
+            <div class="candle candle-left"><i class="flame"></i><i class="smoke"></i></div>
+            <div class="candle candle-mid"><i class="flame"></i><i class="smoke"></i></div>
+            <div class="candle candle-right"><i class="flame"></i><i class="smoke"></i></div>
+          </div>
+          <div class="cake" id="cake" role="img" aria-label="A birthday cake with candles">
+            <div class="cake-top"><div class="icing-drip drip-one"></div><div class="icing-drip drip-two"></div><div class="icing-drip drip-three"></div><div class="berry berry-one"></div><div class="berry berry-two"></div><div class="berry berry-three"></div></div>
+            <div class="cake-side"><div class="frosting-line"></div><div class="sprinkles">✦　•　✦　•　✦</div><div class="cut-lines" id="cutLines"></div></div>
+            <div class="cake-base"></div>
+          </div>
+          <div class="slice slice-one" id="sliceOne"></div><div class="slice slice-two" id="sliceTwo"></div><div class="plate"></div>
+          <div class="cake-shadow"></div>
+        </div>
+        <div class="table"></div>
+        <div class="little-star star-one">✦</div><div class="little-star star-two">✧</div><div class="little-star star-three">✦</div>
+      </div>
+      <div class="actions">
+        <button class="button button-primary" id="blowBtn">✧ Blow out the candles</button>
+        <button class="button button-secondary" id="cutBtn">Cut the cake ↗</button>
+      </div>
+      <div class="slice-controls" id="sliceControls" hidden><span>Choose a slice:</span><button class="slice-button" data-slice="1">Slice 1</button><button class="slice-button" data-slice="2">Slice 2</button><button class="slice-button" data-slice="3">Slice 3</button><button class="slice-button" data-slice="4">Slice 4</button></div><p class="hint" id="hint" aria-live="polite">Tap a balloon to pop it, click the candles to make a wish, or start cutting!</p>
+    </section>
+    <section class="wish-card" id="wishCard">
+      <div class="wish-icon">♡</div>
+      <div><h2>A wish just for you</h2><p>May this year bring you big laughs, great adventures, good people, and all the little things that make life wonderful.</p></div>
+    </section>
+    <footer>MADE WITH <span>♥</span> JUST FOR VEDANT</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
